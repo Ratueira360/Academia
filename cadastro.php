@@ -16,10 +16,10 @@
         <label>Senha</label>
         <input type="password" name="senha"> 
         <label>Telefone</label>
-        <input type="text" name="Telefone">
+        <input type="text" name="telefone">
         <label>CPF</label>
-        <input type="text" name="CPF">
-        <input type="submit" value="enviar">
+        <input type="text" name="cpf">
+        <input type="submit" value="Enviar">
     </form>
 </body>
 </html>

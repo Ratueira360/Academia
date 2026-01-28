@@ -3,14 +3,17 @@ include "conexao.php";
 
 $nome = $_POST['nome'];
 $email = $_POST['email'];
-$telefone = $_POST['telefone'];
-$CPF = $_POST['CPF'];
 $senha = password_hash($_POST['senha'], PASSWORD_DEFAULT);
+$telefone = $_POST['telefone'];
+$cpf = $_POST['cpf'];
 
-$SQL = "INSERT into usuario(nome, email, senha, telefone, cpf)
-values ('$nome', '$email', '$senha', '$telefone', '$cpf')";
+$sql = "INSERT into cadastro(nome, email, senha, telefone, cpf)
+values ('$nome', '$email', '$senha','$telefone', '$cpf')";
 
-mysqli_query($conexao, $sql);
+if (mysqli_query($conexao, $sql)){
 echo "Cadastro realizado com sucesso";
-echo "<br><ahref=\"index.php\">voltar</a>";
+echo "<br><a href=\"cadastro.php\">Voltar</a>";
+} else {
+    echo "Erro:" . mysqli_error($conexao);
+}
 ?>
