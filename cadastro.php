@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container"></div>
-    <h1>CADASTRAR</h1>
+    <div class="container">
+    <h1>CADASTRO</h1>
     <form action="cadastrar.php" method="post">
         <Label>NOME</Label>
         <input type="text" name="nome">
@@ -20,7 +20,7 @@
         <input type="text" name="telefone">
         <label>CPF</label>
         <input type="text" name="cpf">
-        <input type="submit" value="Enviar">
+        <button>Cadastrar</button>
     </form>
     </div>
 </body>
