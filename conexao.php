@@ -3,7 +3,7 @@
 $localhost="localhost";
 $user="root";
 $senha="";
-$db="cadastro";
+$db="academia";
 
 $conexao=mysqli_connect($localhost,$user,$senha,$db);
 if (!$conexao){
