@@ -65,24 +65,33 @@
     <h1>Nossos Planos</h1>
     <div class="planos">
         <div class="card">
-<h2>Básico</h2>
-<p>Acesso á musculação</p>
-<span>R$ 60/mês</span>
-<button>Escolher</button>
+            <h2>Básico</h2>
+            <p>Acesso á musculação</p>
+            <span>R$ 60/mês</span>
+            <form action="escolher_plano.php" method="post">
+                <input type="hidden" name="plano" value="Basico">
+                <button type="submit">Escolher</button>
+            </form>
         </div>
 
-        <div class="card  destaque">
+        <div class="card destaque">
             <h2>Premium</h2>
             <p>Musculação + Funcional + Cardio</p>
             <span>R$ 100/mês</span>
-            <button>Escolher</button>
+            <form action="escolher_plano.php" method="post">
+                <input type="hidden" name="plano" value="Premium">
+                <button type="submit">Escolher</button>
+            </form>
         </div>
 
          <div class="card">
             <h2>completo</h2>
             <p>Tudo + Nutri + Fisio</p>
             <span>R$ 150/mês</span>
-            <button>Escolher</button>
+            <form action="escolher_plano.php" method="post">
+                <input type="hidden" name="plano" value="Completo">
+                <button type="submit">Escolher</button>
+            </form>
         </div>
 
 
