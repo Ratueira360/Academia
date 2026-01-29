@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        body{
+            background: linear-gradient(135deg,black,#0b2e1a,#00ff6a);
+            min-height: 100vh;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        nav{
+            background: linear-gradient(135deg,black,#0b2e1a,#00ff6a);
+            backdrop-filter: blur(10px);
+            height: 70px;
+            display: flex;
+            align-items: center;
+            padding:15px;
+        }
+        .menu{
+            height: 120px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+}
+.menu img{
+    height: 80px;
+}
+ul{
+    margin-left: auto;
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+a{
+    
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 16px;
+}
+a:hover{
+    color: #00ff6a;
+}
+.img-centro{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+.img-centro img{
+    width: 300px;
+    opacity: 0.9;
+    animation: float 3s ease-in-out infinite;
+    filter: drop-shadow(0 0 15px #00ff4c);
+}
+@keyframes float{
+    0%{transform: translateY(0);}
+    50%{transform: translateY(-10px);}
+    100%{ transform: translateY(0);}
+}
+    </style>
+</head>
+<body>
+    <nav>
+    <div class="menu">
+        <img src="OIP.webp" alt="">
+        </div>
+        <ul>
+            <li><a href="cadastro.php">CADASTRO</a></li>
+            <li><a href="$">ALUNOS</a></li>
+            <li><a href="$">PAGAMENTOS</a></li>
+            <li><a href="$">AGENDAMENTOS</a></li>
+            <li><a href="$">SAIR</a></li>
+        </ul>
+    </nav>
+     <div class="img-centro">
+            <img src="OIP-removebg-preview.png" alt="">
+        </div>
+    
+</body>
+</html>

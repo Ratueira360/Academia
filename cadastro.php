@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina Inicial</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background: linear-gradient(135deg,black,#0b2e1a,#00ff6a);
+            min-height: 100vh;
+            margin: 0;
+        }
+    </style>
 </head>
 <body>
     <div class="container">

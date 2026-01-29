@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(100deg,greenyellow,rgb(85, 107, 73));
+    background: linear-gradient(135deg,black,#0b2e1a,#00ff6a);
     font-family: 'Times New Roman', Times, serif;
 }
 .container{
@@ -45,6 +45,25 @@ button{
     border: 5px;
     cursor: pointer;
 }
-button hover{
+button:hover{
     background: rgb(11, 196, 11);
 }
+.menu{
+    display: flex;
+}
+menu ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+menu a{
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.logo{
+        display: block;
+        margin: 0 auto 20px auto;
+        max-width: 180px;
+    }
