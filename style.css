@@ -46,7 +46,7 @@ button{
     cursor: pointer;
 }
 button:hover{
-    background: rgb(11, 196, 11);
+    background: rgb(65, 71, 65);
 }
 .menu{
     display: flex;
